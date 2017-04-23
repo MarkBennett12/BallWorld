@@ -6,7 +6,7 @@
     <ProjectGuid>{bfe69a89-896a-4e91-b4a2-7540d864fb8f}</ProjectGuid>
     <ProjectHome />
     <StartupFile>src\Demo.py</StartupFile>
-    <SearchPath />
+    <SearchPath>..\SementicContentGenerator\src\</SearchPath>
     <WorkingDirectory>.\src</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
