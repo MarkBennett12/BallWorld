@@ -36,13 +36,13 @@ if __name__ == '__main__':
         
         network.StartInstanciation(entitylist)
         #screen.fill(background)
-        print "RUNNING ============================================================================"
+        print("RUNNING ============================================================================")
         
         for entity in entitylist:
-            print "running " + entity.name
+            print("running " + entity.name)
             for attribute in entity.attributes:
-                #print "In demo.py, entity: " + entity.name + ", environment: " + str(entity.environment)
-                #print "executing \n'" + attribute.script + "'\n"
+                #print("In demo.py, entity: " + entity.name + ", environment: " + str(entity.environment))
+                #print("executing \n'" + attribute.script + "'\n")
                 exec(attribute.script, globalEnvironment, entity.environment)
                 
         #raw_input("press key")
